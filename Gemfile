@@ -31,7 +31,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug'
 
-gem 'chanko', :git => 'git@github.com:cookpad/chanko.git'
+gem 'chanko', :git => 'git://github.com/cookpad/chanko.git'
 
 gem 'haml'
 gem 'haml-rails'
