@@ -10,7 +10,7 @@ gem 'ruby-debug'
 gem 'sqlite3'
 
 gem 'json'
-gem 'chanko', :path => '../chanko' #:git => 'git://github.com/cookpad/chanko.git'
+gem 'chanko', :git => 'git://github.com/cookpad/chanko.git', :ref => 'b0a70674b1c7a1f4b9487b57adc2721700c546f7'
 
 # Gems used only for assets and not required
 # in production environments by default.

@@ -1,8 +1,10 @@
-PATH
-  remote: ../chanko
+GIT
+  remote: git://github.com/cookpad/chanko.git
+  revision: b0a70674b1c7a1f4b9487b57adc2721700c546f7
+  ref: b0a70674b1c7a1f4b9487b57adc2721700c546f7
   specs:
     chanko (1.0.2)
-      rails (>= 3.2.0)
+      rails (>= 3.0.0)
 
 GEM
   remote: http://rubygems.org/
