@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/cookpad/chanko.git
-  revision: b0a70674b1c7a1f4b9487b57adc2721700c546f7
-  ref: b0a70674b1c7a1f4b9487b57adc2721700c546f7
+  revision: d8e6c55091e0a6dcc1051d55cdd7e6d8964724ca
+  ref: d8e6c55091e0a6dcc1051d55cdd7e6d8964724ca
   specs:
     chanko (1.0.2)
       rails (>= 3.0.0)
@@ -130,7 +130,7 @@ DEPENDENCIES
   jquery-rails
   json
   paperclip
-  rails (>= 3.0.10)
+  rails (>= 3.2.1)
   sass-rails
   sqlite3
   uglifier (>= 1.0.3)
