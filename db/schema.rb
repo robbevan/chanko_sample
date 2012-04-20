@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(:version => 20111121121544) do
     t.string   "title"
     t.text     "content"
     t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
     t.string   "image_file_name"
     t.string   "image_content_type"
     t.integer  "image_file_size"
@@ -26,8 +26,9 @@ ActiveRecord::Schema.define(:version => 20111121121544) do
 
   create_table "users", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.boolean  "gender"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

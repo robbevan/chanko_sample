@@ -1,9 +1,8 @@
-
-$background: #3F425E;
+$background: #4C4C4C;
 $text: #666666;
 $white-text: #F9FFFA;
-$box: #eee;
-$header: #061129;
+$box: #362F2D;
+$header: #94B73E;
 $highlight: #fff;
 
 
@@ -61,12 +60,13 @@ h1 {
 }
 
 .header {
-  background-color: $header;
+  border-bottom: solid 2px $header;
   height: 40px;
   padding: 15px;
 }
 
 .create_form {
+  color: $white-text;
   background-color: $box;
   padding: 20px;
   margin-bottom: 40px;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .create_form ul {
-  border: 1px solid $box - #111;
+  border-bottom: 1px solid $box - #111;
 }
 
 
