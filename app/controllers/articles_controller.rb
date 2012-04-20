@@ -5,7 +5,8 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    @article = Article.new(params[:article])
+    attributes = params[:article].dup.extract!(:title, :content).merge(:user_id => session[:user].try(:id))
+    @article = Article.new(attributes)
     if @article.save
       redirect_to top_path
     else

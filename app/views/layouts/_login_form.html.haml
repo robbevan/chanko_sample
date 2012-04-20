@@ -1,0 +1,9 @@
+- if session[:user]
+  Your name is
+  = session[:user].name
+  = link_to '[logout]', logout_path, :method => :post
+-else
+  = form_tag login_path do
+    Your name is
+    = text_field_tag :name
+    = submit_tag 'login'
