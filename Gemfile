@@ -8,8 +8,7 @@ gem 'rails', '>= 3.2.1'
 gem 'sqlite3'
 
 gem 'json'
-#gem 'chanko', :git => 'git://github.com/cookpad/chanko.git', :ref => 'ef7db9b1eb0065df4583cb7d3312fb0869d3924a'
-gem 'chanko', :path => '../chanko'
+gem 'chanko', :git => 'git://github.com/cookpad/chanko.git', :ref => '5a73b9252faf114963869524b955e2bbed0e0d3a'
 
 # Gems used only for assets and not required
 # in production environments by default.
