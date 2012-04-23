@@ -8,7 +8,7 @@ gem 'rails', '>= 3.2.1'
 gem 'sqlite3'
 
 gem 'json'
-gem 'chanko', :git => 'git://github.com/cookpad/chanko.git', :ref => '5a73b9252faf114963869524b955e2bbed0e0d3a'
+gem 'chanko', :git => 'git://github.com/cookpad/chanko.git', :ref => '95aff1afe11a8c98d03967f8f4d9b14572fb4e63'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -21,6 +21,7 @@ end
 group :test, :development do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'ruby-debug'
 end
 
 gem 'jquery-rails'
