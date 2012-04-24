@@ -21,7 +21,6 @@ end
 group :test, :development do
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'ruby-debug'
 end
 
 gem 'jquery-rails'
